@@ -1,0 +1,37 @@
+
+state={
+	id=145
+	name="STATE_145"
+	manpower = 10517323
+	
+	state_category = megalopolis
+	resources={
+		aluminium=0
+		chromium=9
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+	}
+
+	history={
+		owner = IIR
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			453 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IIR
+	}
+
+	provinces={
+		453 473 516 534 
+	}
+	local_supplies=0.0 
+}

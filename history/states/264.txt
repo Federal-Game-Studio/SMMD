@@ -1,0 +1,34 @@
+
+state={
+	id=264
+	name="STATE_264"
+	manpower = 10204178
+	
+	state_category = metropolis
+	resources={
+		aluminium=0
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = IRT
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = IRT
+	}
+
+	provinces={
+		856 994 
+	}
+	local_supplies=0.0 
+}

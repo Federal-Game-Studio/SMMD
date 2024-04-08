@@ -1,0 +1,34 @@
+
+state={
+	id=290
+	name="STATE_290"
+	manpower = 1578860
+	
+	state_category = town
+	resources={
+		aluminium=3
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=8
+	}
+
+	history={
+		owner = NOU
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NOU
+	}
+
+	provinces={
+		1134 1140 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=143
+	name="STATE_143"
+	manpower = 50521313
+	
+	state_category = large_city
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=8
+		tungsten=0
+	}
+
+	history={
+		owner = OSS
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			228 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = OSS
+	}
+
+	provinces={
+		130 147 148 228 386 396 448 500 521 931 1073 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=170
+	name="STATE_170"
+	manpower = 5514370
+	
+	state_category = metropolis
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+	}
+
+	history={
+		owner = NOU
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			531 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NOU
+	}
+
+	provinces={
+		531 576 
+	}
+	local_supplies=0.0 
+}

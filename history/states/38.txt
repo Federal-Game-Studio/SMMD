@@ -1,0 +1,34 @@
+
+state={
+	id=38
+	name="STATE_38"
+	manpower = 59093321
+	
+	state_category = city
+	resources={
+		aluminium=3
+		chromium=0
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+	}
+
+	history={
+		owner = DOI
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = DOI
+	}
+
+	provinces={
+		65 91 92 104 188 272 405 552 717 777 922 958 
+	}
+	local_supplies=0.0 
+}

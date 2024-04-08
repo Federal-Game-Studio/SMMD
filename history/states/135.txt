@@ -1,0 +1,37 @@
+
+state={
+	id=135
+	name="STATE_135"
+	manpower = 6220509
+	
+	state_category = megalopolis
+	resources={
+		aluminium=5
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+	}
+
+	history={
+		owner = DOI
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			460 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DOI
+	}
+
+	provinces={
+		426 460 
+	}
+	local_supplies=0.0 
+}

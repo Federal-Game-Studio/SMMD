@@ -1,0 +1,34 @@
+
+state={
+	id=232
+	name="STATE_232"
+	manpower = 19112625
+	
+	state_category = large_city
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=10
+	}
+
+	history={
+		owner = DOI
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 2
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = DOI
+	}
+
+	provinces={
+		723 1062 1077 1081 
+	}
+	local_supplies=0.0 
+}

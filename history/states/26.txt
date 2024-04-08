@@ -1,0 +1,37 @@
+
+state={
+	id=26
+	name="STATE_26"
+	manpower = 26680161
+	
+	state_category = megalopolis
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=4
+	}
+
+	history={
+		owner = JII
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			63 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JII
+	}
+
+	provinces={
+		63 67 73 76 
+	}
+	local_supplies=0.0 
+}

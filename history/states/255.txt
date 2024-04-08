@@ -1,0 +1,34 @@
+
+state={
+	id=255
+	name="STATE_255"
+	manpower = 8518292
+	
+	state_category = town
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = IIR
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = IIR
+	}
+
+	provinces={
+		806 824 831 
+	}
+	local_supplies=0.0 
+}

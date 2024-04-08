@@ -1,0 +1,37 @@
+
+state={
+	id=71
+	name="STATE_71"
+	manpower = 22491561
+	
+	state_category = large_city
+	resources={
+		aluminium=0
+		chromium=0
+		oil=12
+		rubber=0
+		steel=3
+		tungsten=0
+	}
+
+	history={
+		owner = NOI
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+			367 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NOI
+	}
+
+	provinces={
+		89 180 249 261 367 
+	}
+	local_supplies=0.0 
+}

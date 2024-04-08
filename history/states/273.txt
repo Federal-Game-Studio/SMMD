@@ -1,0 +1,34 @@
+
+state={
+	id=273
+	name="STATE_273"
+	manpower = 15681335
+	
+	state_category = large_town
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+	}
+
+	history={
+		owner = THU
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = THU
+	}
+
+	provinces={
+		881 1093 
+	}
+	local_supplies=0.0 
+}

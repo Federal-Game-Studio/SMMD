@@ -1,0 +1,34 @@
+
+state={
+	id=286
+	name="STATE_286"
+	manpower = 1348303
+	
+	state_category = rural
+	resources={
+		aluminium=7
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = OCO
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = OCO
+	}
+
+	provinces={
+		988 1015 
+	}
+	local_supplies=0.0 
+}

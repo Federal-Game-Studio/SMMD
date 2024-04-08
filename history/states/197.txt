@@ -1,0 +1,34 @@
+
+state={
+	id=197
+	name="STATE_197"
+	manpower = 11973774
+	
+	state_category = city
+	resources={
+		aluminium=1
+		chromium=5
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = OCO
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = OCO
+	}
+
+	provinces={
+		597 630 818 943 
+	}
+	local_supplies=0.0 
+}

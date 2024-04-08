@@ -1,0 +1,34 @@
+
+state={
+	id=168
+	name="STATE_168"
+	manpower = 5730919
+	
+	state_category = large_city
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = JUT
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = JUT
+	}
+
+	provinces={
+		510 526 
+	}
+	local_supplies=0.0 
+}

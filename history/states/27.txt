@@ -1,0 +1,37 @@
+
+state={
+	id=27
+	name="STATE_27"
+	manpower = 10806250
+	
+	state_category = metropolis
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=6
+	}
+
+	history={
+		owner = JII
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 2
+			64 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JII
+	}
+
+	provinces={
+		64 245 318 
+	}
+	local_supplies=0.0 
+}

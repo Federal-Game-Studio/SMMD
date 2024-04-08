@@ -1,0 +1,37 @@
+
+state={
+	id=237
+	name="STATE_237"
+	manpower = 13302950
+	
+	state_category = metropolis
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+	}
+
+	history={
+		owner = IIR
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			744 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IIR
+	}
+
+	provinces={
+		744 1123 
+	}
+	local_supplies=0.0 
+}

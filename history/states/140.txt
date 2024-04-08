@@ -1,0 +1,34 @@
+
+state={
+	id=140
+	name="STATE_140"
+	manpower = 5393645
+	
+	state_category = town
+	resources={
+		aluminium=0
+		chromium=0
+		oil=7
+		rubber=0
+		steel=1
+		tungsten=0
+	}
+
+	history={
+		owner = THU
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = THU
+	}
+
+	provinces={
+		438 694 784 1056 
+	}
+	local_supplies=0.0 
+}

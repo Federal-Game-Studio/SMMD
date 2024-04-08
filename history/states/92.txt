@@ -1,0 +1,37 @@
+
+state={
+	id=92
+	name="STATE_92"
+	manpower = 18627044
+	
+	state_category = metropolis
+	resources={
+		aluminium=0
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = NOI
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			362 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NOI
+	}
+
+	provinces={
+		239 283 362 920 
+	}
+	local_supplies=0.0 
+}

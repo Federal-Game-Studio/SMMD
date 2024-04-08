@@ -1,0 +1,37 @@
+
+state={
+	id=241
+	name="STATE_241"
+	manpower = 19991348
+	
+	state_category = megalopolis
+	resources={
+		aluminium=4
+		chromium=7
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=8
+	}
+
+	history={
+		owner = OCO
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			758 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = OCO
+	}
+
+	provinces={
+		758 761 
+	}
+	local_supplies=0.0 
+}

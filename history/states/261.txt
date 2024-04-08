@@ -1,0 +1,37 @@
+
+state={
+	id=261
+	name="STATE_261"
+	manpower = 11030828
+	
+	state_category = megalopolis
+	resources={
+		aluminium=2
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = IRT
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			850 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IRT
+	}
+
+	provinces={
+		850 866 
+	}
+	local_supplies=0.0 
+}

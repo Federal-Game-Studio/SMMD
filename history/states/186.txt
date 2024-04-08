@@ -1,0 +1,37 @@
+
+state={
+	id=186
+	name="STATE_186"
+	manpower = 10578180
+	
+	state_category = megalopolis
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=5
+	}
+
+	history={
+		owner = NOU
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			570 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NOU
+	}
+
+	provinces={
+		570 596 601 641 
+	}
+	local_supplies=0.0 
+}

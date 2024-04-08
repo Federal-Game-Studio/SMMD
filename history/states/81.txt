@@ -1,0 +1,34 @@
+
+state={
+	id=81
+	name="STATE_81"
+	manpower = 11905069
+	
+	state_category = large_city
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=2
+	}
+
+	history={
+		owner = IIR
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = IIR
+	}
+
+	provinces={
+		208 441 477 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=200
+	name="STATE_200"
+	manpower = 15228749
+	
+	state_category = city
+	resources={
+		aluminium=6
+		chromium=8
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = THU
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = THU
+	}
+
+	provinces={
+		608 638 660 847 
+	}
+	local_supplies=0.0 
+}

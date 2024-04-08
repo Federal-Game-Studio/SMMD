@@ -1,0 +1,34 @@
+
+state={
+	id=113
+	name="STATE_113"
+	manpower = 3858205
+	
+	state_category = metropolis
+	resources={
+		aluminium=3
+		chromium=12
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+	}
+
+	history={
+		owner = NOI
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 2
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = NOI
+	}
+
+	provinces={
+		322 380 
+	}
+	local_supplies=0.0 
+}

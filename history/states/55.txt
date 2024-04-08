@@ -1,0 +1,34 @@
+
+state={
+	id=55
+	name="STATE_55"
+	manpower = 19289106
+	
+	state_category = rural
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = IIR
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = IIR
+	}
+
+	provinces={
+		16 126 200 340 
+	}
+	local_supplies=0.0 
+}

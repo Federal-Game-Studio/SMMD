@@ -1,0 +1,37 @@
+
+state={
+	id=128
+	name="STATE_128"
+	manpower = 26667948
+	
+	state_category = metropolis
+	resources={
+		aluminium=3
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = JUT
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 2
+			410 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JUT
+	}
+
+	provinces={
+		410 457 
+	}
+	local_supplies=0.0 
+}

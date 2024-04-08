@@ -1,0 +1,34 @@
+
+state={
+	id=54
+	name="STATE_54"
+	manpower = 68334919
+	
+	state_category = large_town
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=4
+	}
+
+	history={
+		owner = OSS
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+			
+		}
+		add_core_of = OSS
+	}
+
+	provinces={
+		39 125 129 136 191 226 1022 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=116
+	name="STATE_116"
+	manpower = 3918055
+	
+	state_category = town
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+	}
+
+	history={
+		owner = NOU
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NOU
+	}
+
+	provinces={
+		346 719 747 
+	}
+	local_supplies=0.0 
+}

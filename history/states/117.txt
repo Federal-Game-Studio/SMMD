@@ -1,0 +1,37 @@
+
+state={
+	id=117
+	name="STATE_117"
+	manpower = 65560678
+	
+	state_category = metropolis
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=8
+		tungsten=0
+	}
+
+	history={
+		owner = NOU
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 2
+			industrial_complex = 2
+			
+			101 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = NOU
+	}
+
+	provinces={
+		101 354 496 505 507 517 530 1018 1102 
+	}
+	local_supplies=0.0 
+}

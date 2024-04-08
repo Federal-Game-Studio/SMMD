@@ -1,0 +1,34 @@
+
+state={
+	id=45
+	name="STATE_45"
+	manpower = 34561738
+	
+	state_category = city
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = OSS
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = OSS
+	}
+
+	provinces={
+		62 72 79 109 567 944 
+	}
+	local_supplies=0.0 
+}

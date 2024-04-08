@@ -1,0 +1,34 @@
+
+state={
+	id=225
+	name="STATE_225"
+	manpower = 11354643
+	
+	state_category = city
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=7
+	}
+
+	history={
+		owner = JII
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = JII
+	}
+
+	provinces={
+		699 743 852 1047 1107 
+	}
+	local_supplies=0.0 
+}

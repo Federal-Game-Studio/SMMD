@@ -1,0 +1,34 @@
+
+state={
+	id=68
+	name="STATE_68"
+	manpower = 28976892
+	
+	state_category = city
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=10
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = NOU
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 2
+			
+		}
+		add_core_of = NOU
+	}
+
+	provinces={
+		17 176 216 221 323 707 
+	}
+	local_supplies=0.0 
+}

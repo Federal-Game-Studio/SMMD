@@ -1,0 +1,34 @@
+
+state={
+	id=215
+	name="STATE_215"
+	manpower = 5641774
+	
+	state_category = large_town
+	resources={
+		aluminium=6
+		chromium=6
+		oil=0
+		rubber=0
+		steel=5
+		tungsten=1
+	}
+
+	history={
+		owner = NOU
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 3
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NOU
+	}
+
+	provinces={
+		647 930 
+	}
+	local_supplies=0.0 
+}

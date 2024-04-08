@@ -1,0 +1,34 @@
+
+state={
+	id=91
+	name="STATE_91"
+	manpower = 8676705
+	
+	state_category = city
+	resources={
+		aluminium=3
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+	}
+
+	history={
+		owner = NOI
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = NOI
+	}
+
+	provinces={
+		238 248 987 997 
+	}
+	local_supplies=0.0 
+}

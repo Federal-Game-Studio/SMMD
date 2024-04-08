@@ -1,0 +1,34 @@
+
+state={
+	id=87
+	name="STATE_87"
+	manpower = 12246031
+	
+	state_category = large_city
+	resources={
+		aluminium=2
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+	}
+
+	history={
+		owner = IIR
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = IIR
+	}
+
+	provinces={
+		231 328 339 479 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=98
+	name="STATE_98"
+	manpower = 16580084
+	
+	state_category = large_city
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+	}
+
+	history={
+		owner = GUO
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = GUO
+	}
+
+	provinces={
+		205 260 357 433 969 983 1009 
+	}
+	local_supplies=0.0 
+}

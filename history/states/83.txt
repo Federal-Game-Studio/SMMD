@@ -1,0 +1,37 @@
+
+state={
+	id=83
+	name="STATE_83"
+	manpower = 8914591
+	
+	state_category = metropolis
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=0
+	}
+
+	history={
+		owner = JII
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			213 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JII
+	}
+
+	provinces={
+		213 955 959 
+	}
+	local_supplies=0.0 
+}

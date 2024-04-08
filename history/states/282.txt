@@ -1,0 +1,34 @@
+
+state={
+	id=282
+	name="STATE_282"
+	manpower = 2647156
+	
+	state_category = large_town
+	resources={
+		aluminium=6
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = NOU
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NOU
+	}
+
+	provinces={
+		910 1143 
+	}
+	local_supplies=0.0 
+}

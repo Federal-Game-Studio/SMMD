@@ -1,0 +1,37 @@
+
+state={
+	id=31
+	name="STATE_31"
+	manpower = 14543500
+	
+	state_category = megalopolis
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=9
+		tungsten=0
+	}
+
+	history={
+		owner = IIR
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			80 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IIR
+	}
+
+	provinces={
+		80 87 96 494 
+	}
+	local_supplies=0.0 
+}

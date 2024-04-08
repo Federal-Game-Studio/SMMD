@@ -1,0 +1,37 @@
+
+state={
+	id=152
+	name="STATE_152"
+	manpower = 3942603
+	
+	state_category = large_city
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = OSS
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 3
+			industrial_complex = 1
+			
+			525 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = OSS
+	}
+
+	provinces={
+		467 525 1038 
+	}
+	local_supplies=0.0 
+}

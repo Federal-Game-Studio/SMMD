@@ -1,0 +1,37 @@
+
+state={
+	id=151
+	name="STATE_151"
+	manpower = 7116549
+	
+	state_category = megalopolis
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+	}
+
+	history={
+		owner = OSS
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 2
+			718 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = OSS
+	}
+
+	provinces={
+		466 718 
+	}
+	local_supplies=0.0 
+}

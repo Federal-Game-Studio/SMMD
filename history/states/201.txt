@@ -1,0 +1,34 @@
+
+state={
+	id=201
+	name="STATE_201"
+	manpower = 30868466
+	
+	state_category = city
+	resources={
+		aluminium=0
+		chromium=3
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+	}
+
+	history={
+		owner = IIR
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = IIR
+	}
+
+	provinces={
+		61 600 610 612 613 615 636 685 697 973 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=171
+	name="STATE_171"
+	manpower = 3091632
+	
+	state_category = rural
+	resources={
+		aluminium=0
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = OSS
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = OSS
+	}
+
+	provinces={
+		535 793 800 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=96
+	name="STATE_96"
+	manpower = 22743818
+	
+	state_category = large_city
+	resources={
+		aluminium=0
+		chromium=7
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+	}
+
+	history={
+		owner = IRT
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = IRT
+	}
+
+	provinces={
+		253 255 430 451 539 
+	}
+	local_supplies=0.0 
+}

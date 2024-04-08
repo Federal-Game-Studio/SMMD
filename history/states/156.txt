@@ -1,0 +1,37 @@
+
+state={
+	id=156
+	name="STATE_156"
+	manpower = 7935882
+	
+	state_category = megalopolis
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=18
+		steel=0
+		tungsten=7
+	}
+
+	history={
+		owner = IIR
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 5
+			
+			471 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IIR
+	}
+
+	provinces={
+		471 537 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,273 @@
+focus_tree = {
+	id = IRT_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = IRT
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+		focus = {
+		id = IRT0.4
+		prerequisite = {}
+
+		mutually_exclusive = { }
+		
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			if = { date > 1939.1.1}
+
+			is_subject = no
+		}
+		bypass = {
+			
+			OR = {
+				has_war_with = GUO
+				is_in_faction_with = GUO
+				GUO = { is_subject_of = IRT }
+				GUO = { has_non_aggression_pact_with = IRT }
+			}
+		}
+		cancel_if_invalid = yes
+		x = 3
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}	
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			
+			create_wargoal = {
+				type = annex_everything
+				target = GUO
+				expire = 0
+			}
+		}
+	}
+	focus = {
+		id = IRT0.6
+		prerequisite = {}
+
+		mutually_exclusive = { }
+		
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			if = { date > 1939.1.1}
+
+			is_subject = no
+		}
+		bypass = {
+			
+			OR = {
+				has_war_with = THU
+				is_in_faction_with = THU
+				THU = { is_subject_of = IRT }
+				THU = { has_non_aggression_pact_with = IRT }
+			}
+		}
+		cancel_if_invalid = yes
+		x = 3
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}	
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			
+			create_wargoal = {
+				type = annex_everything
+				target = THU
+				expire = 0
+			}
+		}
+	}
+	focus = {
+		id = IRT1.0
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {}
+
+		mutually_exclusive = { }
+		
+		x = 5
+		y = 1
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			IRT = {
+			set_rule = { can_create_factions = yes }
+			create_faction = Irtordu_Axis
+			}
+		}
+	}
+	focus = {
+		id = IRT1000.0
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {}
+
+		mutually_exclusive = { }
+		
+		x = 7
+		y = 1
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 500
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = IRT1000.1
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = IRT1000.0 }
+
+		mutually_exclusive = { focus = IRT1000.2 }
+		
+		x = 7
+		y = 2
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 500
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = IRT1000.2
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = IRT1000.0 }
+
+		mutually_exclusive = { focus = IRT1000.1 }
+		
+		x = 9
+		y = 2
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience = 500
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = IRT1001.3
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = IRT1000.1  focus = IRT1000.2 }
+
+		mutually_exclusive = { }
+		
+		x = 7
+		y = 3
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			navy_experience = 500
+			
+		}
+	}
+	focus = {
+		id = IRT1002.4
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = IRT1000.1  focus = IRT1000.2 }
+
+		mutually_exclusive = { }
+		
+		x = 7
+		y = 4
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		available = {
+			if = { date > 1936.1.1}
+
+		}
+		bypass = {
+			
+		}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			navy_experience = 500
+			
+		}
+	}
+
+	
+}

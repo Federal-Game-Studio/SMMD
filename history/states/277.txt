@@ -1,0 +1,34 @@
+
+state={
+	id=277
+	name="STATE_277"
+	manpower = 9441044
+	
+	state_category = city
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+	}
+
+	history={
+		owner = NOU
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = NOU
+	}
+
+	provinces={
+		894 1079 1116 1132 
+	}
+	local_supplies=0.0 
+}

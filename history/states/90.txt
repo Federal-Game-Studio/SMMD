@@ -1,0 +1,37 @@
+
+state={
+	id=90
+	name="STATE_90"
+	manpower = 4981637
+	
+	state_category = megalopolis
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+	}
+
+	history={
+		owner = JII
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 2
+			237 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = JII
+	}
+
+	provinces={
+		237 285 
+	}
+	local_supplies=0.0 
+}
