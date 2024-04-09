@@ -9,7 +9,7 @@ focus_tree={
 	default=no
 	focus={
 		id=I_Suck
-		x=8
+		x=6
 		y=0
 		mutually_exclusive={focus=No_Suck }
 		cost=10
@@ -24,7 +24,7 @@ focus_tree={
 	}
 	focus={
 		id=No_Suck
-		x=26
+		x=24
 		y=0
 		mutually_exclusive={focus=I_Suck }
 		cost=10
@@ -39,7 +39,7 @@ focus_tree={
 	}
 	focus={
 		id=national_suck
-		x=8
+		x=6
 		y=1
 		prerequisite={focus=I_Suck}
 		cost=10
@@ -54,10 +54,10 @@ focus_tree={
 	}
 	focus={
 		id=hello_shenmiren
-		x=8
-		y=4
+		x=6
+		y=3
 		prerequisite={focus=national_suck}
-		mutually_exclusive={focus=sb_shenmiren }
+		mutually_exclusive={focus=sb_shenmiren focus=hello_pfed focus=big_pot }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -70,10 +70,10 @@ focus_tree={
 	}
 	focus={
 		id=sb_shenmiren
-		x=14
-		y=4
+		x=12
+		y=3
 		prerequisite={focus=national_suck}
-		mutually_exclusive={focus=hello_shenmiren }
+		mutually_exclusive={focus=hello_shenmiren focus=hello_pfed focus=big_pot }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -86,9 +86,10 @@ focus_tree={
 	}
 	focus={
 		id=hello_pfed
-		x=5
-		y=2
+		x=3
+		y=3
 		prerequisite={focus=national_suck}
+		mutually_exclusive={focus=hello_shenmiren focus=sb_shenmiren focus=big_pot }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -101,7 +102,7 @@ focus_tree={
 	}
 	focus={
 		id=coster_meeting
-		x=8
+		x=6
 		y=5
 		prerequisite={focus=hello_shenmiren}
 		cost=10
@@ -116,7 +117,7 @@ focus_tree={
 	}
 	focus={
 		id=sm_warriors
-		x=7
+		x=5
 		y=6
 		prerequisite={focus=coster_meeting}
 		cost=10
@@ -131,7 +132,7 @@ focus_tree={
 	}
 	focus={
 		id=blackdick_virus
-		x=9
+		x=7
 		y=6
 		prerequisite={focus=coster_meeting}
 		cost=10
@@ -146,7 +147,7 @@ focus_tree={
 	}
 	focus={
 		id=international_suck
-		x=5
+		x=3
 		y=5
 		prerequisite={focus=hello_pfed}
 		prerequisite={focus=hello_shenmiren}
@@ -162,8 +163,8 @@ focus_tree={
 	}
 	focus={
 		id=suck_god
-		x=5
-		y=8
+		x=7
+		y=7
 		prerequisite={focus=sm_warriors}
 		prerequisite={focus=blackdick_virus}
 		prerequisite={focus=international_suck}
@@ -179,7 +180,7 @@ focus_tree={
 	}
 	focus={
 		id=blood_night
-		x=14
+		x=12
 		y=5
 		prerequisite={focus=sb_shenmiren}
 		cost=10
@@ -194,7 +195,7 @@ focus_tree={
 	}
 	focus={
 		id=kuge_karma_world
-		x=11
+		x=9
 		y=6
 		prerequisite={focus=blood_night}
 		prerequisite={focus=hello_pfed}
@@ -210,7 +211,7 @@ focus_tree={
 	}
 	focus={
 		id=goucity_story
-		x=11
+		x=9
 		y=8
 		prerequisite={focus=kuge_karma_world}
 		cost=10
@@ -225,7 +226,7 @@ focus_tree={
 	}
 	focus={
 		id=fucking_capitalism
-		x=22
+		x=20
 		y=2
 		prerequisite={focus=No_Suck}
 		cost=10
@@ -240,7 +241,7 @@ focus_tree={
 	}
 	focus={
 		id=pull_pfed
-		x=29
+		x=27
 		y=2
 		prerequisite={focus=No_Suck}
 		cost=10
@@ -255,7 +256,7 @@ focus_tree={
 	}
 	focus={
 		id=ku_guard
-		x=20
+		x=18
 		y=3
 		prerequisite={focus=fucking_capitalism}
 		cost=10
@@ -270,7 +271,7 @@ focus_tree={
 	}
 	focus={
 		id=king_set_policy
-		x=22
+		x=20
 		y=3
 		prerequisite={focus=fucking_capitalism}
 		cost=10
@@ -285,7 +286,7 @@ focus_tree={
 	}
 	focus={
 		id=parliamentary_reform
-		x=22
+		x=20
 		y=5
 		prerequisite={focus=prime_minister_election}
 		cost=10
@@ -300,7 +301,7 @@ focus_tree={
 	}
 	focus={
 		id=clear_differences
-		x=20
+		x=18
 		y=5
 		prerequisite={focus=ku_guard}
 		cost=10
@@ -315,7 +316,7 @@ focus_tree={
 	}
 	focus={
 		id=prime_minister_election
-		x=22
+		x=20
 		y=4
 		prerequisite={focus=king_set_policy}
 		cost=10
@@ -330,7 +331,7 @@ focus_tree={
 	}
 	focus={
 		id=goucity_eco
-		x=24
+		x=22
 		y=3
 		prerequisite={focus=fucking_capitalism}
 		cost=10
@@ -345,11 +346,11 @@ focus_tree={
 	}
 	focus={
 		id=strong_yly
-		x=22
+		x=20
 		y=6
 		prerequisite={focus=clear_differences}
 		prerequisite={focus=parliamentary_reform}
-		prerequisite={focus=goucity_eco}
+		prerequisite={focus=factory_invest}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -362,7 +363,7 @@ focus_tree={
 	}
 	focus={
 		id=pull_rope
-		x=27
+		x=25
 		y=3
 		prerequisite={focus=pull_pfed}
 		cost=10
@@ -377,7 +378,7 @@ focus_tree={
 	}
 	focus={
 		id=pull_moya
-		x=31
+		x=29
 		y=3
 		prerequisite={focus=pull_pfed}
 		cost=10
@@ -392,7 +393,7 @@ focus_tree={
 	}
 	focus={
 		id=take_politics
-		x=27
+		x=25
 		y=5
 		prerequisite={focus=pull_rope}
 		cost=10
@@ -407,7 +408,7 @@ focus_tree={
 	}
 	focus={
 		id=take_army
-		x=31
+		x=29
 		y=5
 		prerequisite={focus=pull_moya}
 		cost=10
@@ -422,7 +423,7 @@ focus_tree={
 	}
 	focus={
 		id=back_pfed
-		x=29
+		x=27
 		y=6
 		prerequisite={focus=take_politics}
 		prerequisite={focus=take_army}
@@ -438,7 +439,7 @@ focus_tree={
 	}
 	focus={
 		id=make_yly_great_again
-		x=25
+		x=23
 		y=8
 		prerequisite={focus=strong_yly}
 		prerequisite={focus=back_pfed}
@@ -454,7 +455,7 @@ focus_tree={
 	}
 	focus={
 		id=literature_game
-		x=41
+		x=39
 		y=0
 		cost=10
 		ai_will_do={
@@ -468,7 +469,7 @@ focus_tree={
 	}
 	focus={
 		id=game_expansion
-		x=38
+		x=36
 		y=1
 		prerequisite={focus=literature_game}
 		mutually_exclusive={focus=game_simplification }
@@ -484,7 +485,7 @@ focus_tree={
 	}
 	focus={
 		id=game_simplification
-		x=44
+		x=42
 		y=1
 		prerequisite={focus=literature_game}
 		mutually_exclusive={focus=game_expansion }
@@ -500,7 +501,7 @@ focus_tree={
 	}
 	focus={
 		id=add_admins
-		x=38
+		x=36
 		y=3
 		prerequisite={focus=game_expansion}
 		cost=10
@@ -515,7 +516,7 @@ focus_tree={
 	}
 	focus={
 		id=four_man_group
-		x=44
+		x=42
 		y=3
 		prerequisite={focus=game_simplification}
 		cost=10
@@ -530,7 +531,7 @@ focus_tree={
 	}
 	focus={
 		id=our_empire
-		x=38
+		x=36
 		y=5
 		prerequisite={focus=add_admins}
 		cost=10
@@ -545,7 +546,7 @@ focus_tree={
 	}
 	focus={
 		id=efficiency_top
-		x=44
+		x=42
 		y=5
 		prerequisite={focus=four_man_group}
 		cost=10
@@ -593,6 +594,7 @@ focus_tree={
 		x=0
 		y=3
 		prerequisite={focus=why_suck}
+		mutually_exclusive={focus=hello_shenmiren focus=sb_shenmiren focus=hello_pfed }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -606,7 +608,7 @@ focus_tree={
 	focus={
 		id=karman_rise
 		x=0
-		y=6
+		y=5
 		prerequisite={focus=kraft_paper}
 		cost=10
 		ai_will_do={
@@ -621,8 +623,207 @@ focus_tree={
 	focus={
 		id=take_yly
 		x=0
-		y=8
+		y=6
 		prerequisite={focus=karman_rise}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=military_reform
+		x=48
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=near_guard
+		x=46
+		y=1
+		prerequisite={focus=military_reform}
+		mutually_exclusive={focus=more_army }
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=more_army
+		x=50
+		y=1
+		prerequisite={focus=military_reform}
+		mutually_exclusive={focus=near_guard }
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=new_era_guns
+		x=46
+		y=3
+		prerequisite={focus=more_army focus=near_guard }
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=cheap_tanks
+		x=51
+		y=3
+		prerequisite={focus=more_army}
+		mutually_exclusive={focus=super_tanks }
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=super_tanks
+		x=49
+		y=3
+		prerequisite={focus=more_army}
+		mutually_exclusive={focus=cheap_tanks }
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=airforce_reform
+		x=56
+		y=0
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=tactical_air
+		x=54
+		y=1
+		prerequisite={focus=airforce_reform}
+		mutually_exclusive={focus=far_bombing }
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=far_bombing
+		x=58
+		y=1
+		prerequisite={focus=airforce_reform}
+		mutually_exclusive={focus=tactical_air }
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=priority_first
+		x=54
+		y=3
+		prerequisite={focus=tactical_air}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=long_wings
+		x=58
+		y=3
+		prerequisite={focus=far_bombing}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=construct_invest
+		x=22
+		y=4
+		prerequisite={focus=goucity_eco}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=factory_invest
+		x=22
+		y=5
+		prerequisite={focus=construct_invest}
 		cost=10
 		ai_will_do={
 			factor=1
